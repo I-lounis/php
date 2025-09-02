@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Cours 00 Les bases</h1>
-    <?php 
+    <?php
         //je peux faire du PHP
         echo '<p>Les balises</p>';
     ?>
