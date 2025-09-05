@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fonction</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les fonctions</h1>
     <h2>Quelques fonctions prédéfinies</h2>
     <p>Une fonction prédéfinie permet de réaliser un traitement spécifique prédéterminé dans le langage PHP.</p>
@@ -27,7 +22,7 @@
         // retourne les 20 premiers caractères du texte
     ?>
 
-    <h2>Fonctions utilisateur </h2>
+    <h2>Fonctions utilisateur</h2>
     <p>Des fonctions sont des morceaux de codes encapsulés dans des accolades et portant un nom, qu'on appelle au besoin pour exécuter le code qui s'y trouve.</p>
 <?php
     function bonjour($genre){
@@ -42,5 +37,6 @@
     //on appel la fonction bonjour et on donne l'argument 
     bonjour('homme');
 ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

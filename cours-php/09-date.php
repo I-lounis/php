@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les dates en PHP</h1>
     <?php
         $today = date('d/m/Y h-i-s');
@@ -36,5 +31,6 @@
         $mydate = new DateTime('11/04/2017');
         echo "<p>Voilà formaté : ".$mydate->format('Y-m-d')."</p>";
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

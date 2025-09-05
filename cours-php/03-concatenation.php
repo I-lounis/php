@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concatenation</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>La concatenation</h1>
     <?php
         $x = "Bonjour";
@@ -39,5 +34,6 @@
         //Dans les guillemets, la variable est évaluée : c\'est son contenu qui est affiché
         echo "<p>$messageBis</p>";
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>
